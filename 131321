@@ -1,3 +1,7 @@
+if not is_synapse_function then
+    game.Players.LocalPlayer:Kick("Synapse required")
+end
+
 local toggles = {tommygun = false, shotgun = false, handgun = false, infectaura = false, branchaura = false}
 local whitelisted = {"Maryli05", "NotBaconJackBlox", "BanishedSpirits", "02sug", "KittyYurisa", "FrostBiteFuge", "wolfiegalowo", "XXxBlueberryCowxXxx", "KajaSoja", "ddreamhomeei", "KariJ2W", "princessunicornnyan2", "wyasmyn86", "jsosjxns", "pamsalgado", "Dog_goodme23", "keirapurplegem", "ayixe25"}
 
